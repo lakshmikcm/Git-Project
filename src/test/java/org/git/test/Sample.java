@@ -18,7 +18,7 @@ public class Sample extends Registration{
 		
 		sendKeys(l.getUsername(),"Beulah");
 		sendKeys(l.getPass(),"lakshmi");
-		//click(l.getLogin());
+		click(l.getLogin());
 		
 		Registration r=new Registration();
 		
